@@ -20,6 +20,8 @@ class ItemTableViewCell: UITableViewCell {
         didSet {
             titleLabel.text = item?.title
             timeLabel.text = item?.updatedAt
+            userNameLabel.text = item?.user.name
+            tagLabel.text = item?.tags.map { $0.name }.joined(separator: ",")
         }
     }
     

@@ -59,4 +59,15 @@ extension ViewController: UITableViewDelegate {
 struct ItemDTO: Codable {
     let title: String
     let updatedAt: String
+    let user: UserDTO
+    let tags: [TagDTO]
+
+    struct UserDTO: Codable {
+        let name: String
+        let profileImageUrl: String
+    }
+
+    struct TagDTO: Codable {
+        let name: String
+    }
 }
