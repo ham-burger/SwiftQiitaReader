@@ -14,6 +14,8 @@ class ViewController: UIViewController {
     @IBOutlet weak var tableView: UITableView!
     override func viewDidLoad() {
         super.viewDidLoad()
+        tableView.register(UINib(nibName: "ItemTableViewCell", bundle: nil), forCellReuseIdentifier: "ItemTableViewCell")
+        
         // Do any additional setup after loading the view, typically from a nib.
         let _ = Alamofire.request("https://qiita.com/api/v2/items",
                           method: .get,
@@ -26,13 +28,10 @@ class ViewController: UIViewController {
                     let decoder = JSONDecoder()
                     decoder.keyDecodingStrategy = .convertFromSnakeCase
                     wself.data = (try? decoder.decode(Array<ItemDTO>.self, from: data)) ?? []
-                    print("api suceed")
                     wself.tableView.reloadData()
                 }
         }
     }
-
-
 }
 
 extension ViewController: UITableViewDataSource {
@@ -41,9 +40,13 @@ extension ViewController: UITableViewDataSource {
     }
     
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
+        if let cell = tableView.dequeueReusableCell(withIdentifier: "ItemTableViewCell") as? ItemTableViewCell {
+            cell.item = data[indexPath.row]
+            return cell
+        }
         let cell: UITableViewCell = tableView.dequeueReusableCell(withIdentifier: "cell", for: indexPath)
         // セルに表示する値を設定する
-        cell.textLabel!.text = "\(data[indexPath.row].title)"
+        cell.textLabel?.text = data[indexPath.row].title
         return cell
     }
 }
@@ -55,4 +58,5 @@ extension ViewController: UITableViewDelegate {
 
 struct ItemDTO: Codable {
     let title: String
+    let updatedAt: String
 }

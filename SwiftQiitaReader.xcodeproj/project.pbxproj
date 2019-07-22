@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -15,6 +15,8 @@
 		837E50B722E48CE60029D978 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 837E50B522E48CE60029D978 /* LaunchScreen.storyboard */; };
 		837E50C222E48CE60029D978 /* SwiftQiitaReaderTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 837E50C122E48CE60029D978 /* SwiftQiitaReaderTests.swift */; };
 		837E50CD22E48CE60029D978 /* SwiftQiitaReaderUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 837E50CC22E48CE60029D978 /* SwiftQiitaReaderUITests.swift */; };
+		83F10F8E22E5F2D300083D60 /* ItemTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83F10F8C22E5F2D300083D60 /* ItemTableViewCell.swift */; };
+		83F10F8F22E5F2D300083D60 /* ItemTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 83F10F8D22E5F2D300083D60 /* ItemTableViewCell.xib */; };
 		88C4FE7412A7688D79B95508 /* Pods_SwiftQiitaReader.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 87420EBB4E2CF2A7CB851DCA /* Pods_SwiftQiitaReader.framework */; };
 		C9587A71D7D922818700938E /* Pods_SwiftQiitaReaderUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6492AC5B1BB5C1004B2C91BB /* Pods_SwiftQiitaReaderUITests.framework */; };
 /* End PBXBuildFile section */
@@ -54,6 +56,8 @@
 		837E50C822E48CE60029D978 /* SwiftQiitaReaderUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SwiftQiitaReaderUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		837E50CC22E48CE60029D978 /* SwiftQiitaReaderUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftQiitaReaderUITests.swift; sourceTree = "<group>"; };
 		837E50CE22E48CE60029D978 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		83F10F8C22E5F2D300083D60 /* ItemTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItemTableViewCell.swift; sourceTree = "<group>"; };
+		83F10F8D22E5F2D300083D60 /* ItemTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ItemTableViewCell.xib; sourceTree = "<group>"; };
 		87420EBB4E2CF2A7CB851DCA /* Pods_SwiftQiitaReader.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SwiftQiitaReader.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		ADBD3B5F7FB14910ECE43050 /* Pods-SwiftQiitaReader.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SwiftQiitaReader.debug.xcconfig"; path = "Target Support Files/Pods-SwiftQiitaReader/Pods-SwiftQiitaReader.debug.xcconfig"; sourceTree = "<group>"; };
 		B8C09676B79A2DA78835A69E /* Pods-SwiftQiitaReaderTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SwiftQiitaReaderTests.release.xcconfig"; path = "Target Support Files/Pods-SwiftQiitaReaderTests/Pods-SwiftQiitaReaderTests.release.xcconfig"; sourceTree = "<group>"; };
@@ -99,7 +103,6 @@
 				65176FC44E5CD90F1C44D1EE /* Pods-SwiftQiitaReaderUITests.debug.xcconfig */,
 				383B6F2C26A2EA24F6C6A6CA /* Pods-SwiftQiitaReaderUITests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -128,11 +131,9 @@
 		837E50AB22E48CE30029D978 /* SwiftQiitaReader */ = {
 			isa = PBXGroup;
 			children = (
+				83F10F8B22E5F28C00083D60 /* view */,
 				837E50AC22E48CE30029D978 /* AppDelegate.swift */,
-				837E50AE22E48CE30029D978 /* ViewController.swift */,
-				837E50B022E48CE30029D978 /* Main.storyboard */,
 				837E50B322E48CE60029D978 /* Assets.xcassets */,
-				837E50B522E48CE60029D978 /* LaunchScreen.storyboard */,
 				837E50B822E48CE60029D978 /* Info.plist */,
 			);
 			path = SwiftQiitaReader;
@@ -154,6 +155,18 @@
 				837E50CE22E48CE60029D978 /* Info.plist */,
 			);
 			path = SwiftQiitaReaderUITests;
+			sourceTree = "<group>";
+		};
+		83F10F8B22E5F28C00083D60 /* view */ = {
+			isa = PBXGroup;
+			children = (
+				837E50AE22E48CE30029D978 /* ViewController.swift */,
+				837E50B022E48CE30029D978 /* Main.storyboard */,
+				837E50B522E48CE60029D978 /* LaunchScreen.storyboard */,
+				83F10F8C22E5F2D300083D60 /* ItemTableViewCell.swift */,
+				83F10F8D22E5F2D300083D60 /* ItemTableViewCell.xib */,
+			);
+			path = view;
 			sourceTree = "<group>";
 		};
 		BF4C58FF6E74DDBC5CCC628B /* Frameworks */ = {
@@ -274,6 +287,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				83F10F8F22E5F2D300083D60 /* ItemTableViewCell.xib in Resources */,
 				837E50B722E48CE60029D978 /* LaunchScreen.storyboard in Resources */,
 				837E50B422E48CE60029D978 /* Assets.xcassets in Resources */,
 				837E50B222E48CE30029D978 /* Main.storyboard in Resources */,
@@ -388,6 +402,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				837E50AF22E48CE30029D978 /* ViewController.swift in Sources */,
+				83F10F8E22E5F2D300083D60 /* ItemTableViewCell.swift in Sources */,
 				837E50AD22E48CE30029D978 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
