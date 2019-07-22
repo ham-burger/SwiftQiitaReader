@@ -7,10 +7,10 @@
 //
 
 import UIKit
+import AlamofireImage
 
 class ItemTableViewCell: UITableViewCell {
-
-    @IBOutlet weak var userImageLabel: UIImageView!
+    @IBOutlet weak var userImageView: UIImageView!
     @IBOutlet weak var titleLabel: UILabel!
     @IBOutlet weak var tagLabel: UILabel!
     @IBOutlet weak var userNameLabel: UILabel!
@@ -22,6 +22,13 @@ class ItemTableViewCell: UITableViewCell {
             timeLabel.text = item?.updatedAt
             userNameLabel.text = item?.user.name
             tagLabel.text = item?.tags.map { $0.name }.joined(separator: ",")
+            guard let profileImageUrlString = item?.user.profileImageUrl else {
+                return
+            }
+            guard let profileImageUrl = URL(string: profileImageUrlString) else {
+                return
+            }
+            userImageView.af_setImage(withURL: profileImageUrl)
         }
     }
     

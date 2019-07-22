@@ -73,7 +73,7 @@
                 <outlet property="tagLabel" destination="yJa-kO-C7J" id="9XV-RE-CaM"/>
                 <outlet property="timeLabel" destination="lm8-gX-ZJr" id="bDo-PN-mKv"/>
                 <outlet property="titleLabel" destination="xQP-Dg-j5T" id="rcu-MY-N5j"/>
-                <outlet property="userImageLabel" destination="K4u-oo-0aR" id="9ma-Ax-iA2"/>
+                <outlet property="userImageView" destination="K4u-oo-0aR" id="O2O-39-SqR"/>
                 <outlet property="userNameLabel" destination="7Vb-Lq-jWl" id="Xhj-kV-ffM"/>
             </connections>
             <point key="canvasLocation" x="-47.200000000000003" y="177.66116941529236"/>
