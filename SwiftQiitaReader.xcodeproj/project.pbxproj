@@ -3,10 +3,11 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4D28D7332C6AC8756B1E5A95 /* Pods_SwiftQiitaReaderTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 67206BAD65E17B9666DEA552 /* Pods_SwiftQiitaReaderTests.framework */; };
 		837E50AD22E48CE30029D978 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 837E50AC22E48CE30029D978 /* AppDelegate.swift */; };
 		837E50AF22E48CE30029D978 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 837E50AE22E48CE30029D978 /* ViewController.swift */; };
 		837E50B222E48CE30029D978 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 837E50B022E48CE30029D978 /* Main.storyboard */; };
@@ -14,6 +15,10 @@
 		837E50B722E48CE60029D978 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 837E50B522E48CE60029D978 /* LaunchScreen.storyboard */; };
 		837E50C222E48CE60029D978 /* SwiftQiitaReaderTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 837E50C122E48CE60029D978 /* SwiftQiitaReaderTests.swift */; };
 		837E50CD22E48CE60029D978 /* SwiftQiitaReaderUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 837E50CC22E48CE60029D978 /* SwiftQiitaReaderUITests.swift */; };
+		83F10F8E22E5F2D300083D60 /* ItemTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83F10F8C22E5F2D300083D60 /* ItemTableViewCell.swift */; };
+		83F10F8F22E5F2D300083D60 /* ItemTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 83F10F8D22E5F2D300083D60 /* ItemTableViewCell.xib */; };
+		88C4FE7412A7688D79B95508 /* Pods_SwiftQiitaReader.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 87420EBB4E2CF2A7CB851DCA /* Pods_SwiftQiitaReader.framework */; };
+		C9587A71D7D922818700938E /* Pods_SwiftQiitaReaderUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6492AC5B1BB5C1004B2C91BB /* Pods_SwiftQiitaReaderUITests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +39,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		383B6F2C26A2EA24F6C6A6CA /* Pods-SwiftQiitaReaderUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SwiftQiitaReaderUITests.release.xcconfig"; path = "Target Support Files/Pods-SwiftQiitaReaderUITests/Pods-SwiftQiitaReaderUITests.release.xcconfig"; sourceTree = "<group>"; };
+		6492AC5B1BB5C1004B2C91BB /* Pods_SwiftQiitaReaderUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SwiftQiitaReaderUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		65176FC44E5CD90F1C44D1EE /* Pods-SwiftQiitaReaderUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SwiftQiitaReaderUITests.debug.xcconfig"; path = "Target Support Files/Pods-SwiftQiitaReaderUITests/Pods-SwiftQiitaReaderUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		67206BAD65E17B9666DEA552 /* Pods_SwiftQiitaReaderTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SwiftQiitaReaderTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		837E50A922E48CE30029D978 /* SwiftQiitaReader.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftQiitaReader.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		837E50AC22E48CE30029D978 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		837E50AE22E48CE30029D978 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -47,6 +56,13 @@
 		837E50C822E48CE60029D978 /* SwiftQiitaReaderUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SwiftQiitaReaderUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		837E50CC22E48CE60029D978 /* SwiftQiitaReaderUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftQiitaReaderUITests.swift; sourceTree = "<group>"; };
 		837E50CE22E48CE60029D978 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		83F10F8C22E5F2D300083D60 /* ItemTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItemTableViewCell.swift; sourceTree = "<group>"; };
+		83F10F8D22E5F2D300083D60 /* ItemTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ItemTableViewCell.xib; sourceTree = "<group>"; };
+		87420EBB4E2CF2A7CB851DCA /* Pods_SwiftQiitaReader.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SwiftQiitaReader.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		ADBD3B5F7FB14910ECE43050 /* Pods-SwiftQiitaReader.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SwiftQiitaReader.debug.xcconfig"; path = "Target Support Files/Pods-SwiftQiitaReader/Pods-SwiftQiitaReader.debug.xcconfig"; sourceTree = "<group>"; };
+		B8C09676B79A2DA78835A69E /* Pods-SwiftQiitaReaderTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SwiftQiitaReaderTests.release.xcconfig"; path = "Target Support Files/Pods-SwiftQiitaReaderTests/Pods-SwiftQiitaReaderTests.release.xcconfig"; sourceTree = "<group>"; };
+		C1894EFB3970A5F737FD8237 /* Pods-SwiftQiitaReader.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SwiftQiitaReader.release.xcconfig"; path = "Target Support Files/Pods-SwiftQiitaReader/Pods-SwiftQiitaReader.release.xcconfig"; sourceTree = "<group>"; };
+		DD173E368F4DA157C5D3DAE5 /* Pods-SwiftQiitaReaderTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SwiftQiitaReaderTests.debug.xcconfig"; path = "Target Support Files/Pods-SwiftQiitaReaderTests/Pods-SwiftQiitaReaderTests.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +70,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				88C4FE7412A7688D79B95508 /* Pods_SwiftQiitaReader.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -61,6 +78,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4D28D7332C6AC8756B1E5A95 /* Pods_SwiftQiitaReaderTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -68,12 +86,26 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C9587A71D7D922818700938E /* Pods_SwiftQiitaReaderUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		46BAF3DBA654EA20DD8FED24 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				ADBD3B5F7FB14910ECE43050 /* Pods-SwiftQiitaReader.debug.xcconfig */,
+				C1894EFB3970A5F737FD8237 /* Pods-SwiftQiitaReader.release.xcconfig */,
+				DD173E368F4DA157C5D3DAE5 /* Pods-SwiftQiitaReaderTests.debug.xcconfig */,
+				B8C09676B79A2DA78835A69E /* Pods-SwiftQiitaReaderTests.release.xcconfig */,
+				65176FC44E5CD90F1C44D1EE /* Pods-SwiftQiitaReaderUITests.debug.xcconfig */,
+				383B6F2C26A2EA24F6C6A6CA /* Pods-SwiftQiitaReaderUITests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 		837E50A022E48CE30029D978 = {
 			isa = PBXGroup;
 			children = (
@@ -81,6 +113,8 @@
 				837E50C022E48CE60029D978 /* SwiftQiitaReaderTests */,
 				837E50CB22E48CE60029D978 /* SwiftQiitaReaderUITests */,
 				837E50AA22E48CE30029D978 /* Products */,
+				46BAF3DBA654EA20DD8FED24 /* Pods */,
+				BF4C58FF6E74DDBC5CCC628B /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -97,11 +131,9 @@
 		837E50AB22E48CE30029D978 /* SwiftQiitaReader */ = {
 			isa = PBXGroup;
 			children = (
+				83F10F8B22E5F28C00083D60 /* view */,
 				837E50AC22E48CE30029D978 /* AppDelegate.swift */,
-				837E50AE22E48CE30029D978 /* ViewController.swift */,
-				837E50B022E48CE30029D978 /* Main.storyboard */,
 				837E50B322E48CE60029D978 /* Assets.xcassets */,
-				837E50B522E48CE60029D978 /* LaunchScreen.storyboard */,
 				837E50B822E48CE60029D978 /* Info.plist */,
 			);
 			path = SwiftQiitaReader;
@@ -125,6 +157,28 @@
 			path = SwiftQiitaReaderUITests;
 			sourceTree = "<group>";
 		};
+		83F10F8B22E5F28C00083D60 /* view */ = {
+			isa = PBXGroup;
+			children = (
+				837E50AE22E48CE30029D978 /* ViewController.swift */,
+				837E50B022E48CE30029D978 /* Main.storyboard */,
+				837E50B522E48CE60029D978 /* LaunchScreen.storyboard */,
+				83F10F8C22E5F2D300083D60 /* ItemTableViewCell.swift */,
+				83F10F8D22E5F2D300083D60 /* ItemTableViewCell.xib */,
+			);
+			path = view;
+			sourceTree = "<group>";
+		};
+		BF4C58FF6E74DDBC5CCC628B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				87420EBB4E2CF2A7CB851DCA /* Pods_SwiftQiitaReader.framework */,
+				67206BAD65E17B9666DEA552 /* Pods_SwiftQiitaReaderTests.framework */,
+				6492AC5B1BB5C1004B2C91BB /* Pods_SwiftQiitaReaderUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -132,9 +186,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 837E50D122E48CE60029D978 /* Build configuration list for PBXNativeTarget "SwiftQiitaReader" */;
 			buildPhases = (
+				2B6682F78A85CBEF2CA29EA8 /* [CP] Check Pods Manifest.lock */,
 				837E50A522E48CE30029D978 /* Sources */,
 				837E50A622E48CE30029D978 /* Frameworks */,
 				837E50A722E48CE30029D978 /* Resources */,
+				0F142E889D152D9055A0399F /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -149,6 +205,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 837E50D422E48CE60029D978 /* Build configuration list for PBXNativeTarget "SwiftQiitaReaderTests" */;
 			buildPhases = (
+				264796F2C3013913755F6A9B /* [CP] Check Pods Manifest.lock */,
 				837E50B922E48CE60029D978 /* Sources */,
 				837E50BA22E48CE60029D978 /* Frameworks */,
 				837E50BB22E48CE60029D978 /* Resources */,
@@ -167,6 +224,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 837E50D722E48CE60029D978 /* Build configuration list for PBXNativeTarget "SwiftQiitaReaderUITests" */;
 			buildPhases = (
+				4D317BC09C25824105052ABF /* [CP] Check Pods Manifest.lock */,
 				837E50C422E48CE60029D978 /* Sources */,
 				837E50C522E48CE60029D978 /* Frameworks */,
 				837E50C622E48CE60029D978 /* Resources */,
@@ -229,6 +287,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				83F10F8F22E5F2D300083D60 /* ItemTableViewCell.xib in Resources */,
 				837E50B722E48CE60029D978 /* LaunchScreen.storyboard in Resources */,
 				837E50B422E48CE60029D978 /* Assets.xcassets in Resources */,
 				837E50B222E48CE30029D978 /* Main.storyboard in Resources */,
@@ -251,12 +310,99 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		0F142E889D152D9055A0399F /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-SwiftQiitaReader/Pods-SwiftQiitaReader-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-SwiftQiitaReader/Pods-SwiftQiitaReader-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-SwiftQiitaReader/Pods-SwiftQiitaReader-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		264796F2C3013913755F6A9B /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-SwiftQiitaReaderTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		2B6682F78A85CBEF2CA29EA8 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-SwiftQiitaReader-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		4D317BC09C25824105052ABF /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-SwiftQiitaReaderUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		837E50A522E48CE30029D978 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				837E50AF22E48CE30029D978 /* ViewController.swift in Sources */,
+				83F10F8E22E5F2D300083D60 /* ItemTableViewCell.swift in Sources */,
 				837E50AD22E48CE30029D978 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -430,6 +576,7 @@
 		};
 		837E50D222E48CE60029D978 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = ADBD3B5F7FB14910ECE43050 /* Pods-SwiftQiitaReader.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -447,6 +594,7 @@
 		};
 		837E50D322E48CE60029D978 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = C1894EFB3970A5F737FD8237 /* Pods-SwiftQiitaReader.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -464,6 +612,7 @@
 		};
 		837E50D522E48CE60029D978 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = DD173E368F4DA157C5D3DAE5 /* Pods-SwiftQiitaReaderTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -484,6 +633,7 @@
 		};
 		837E50D622E48CE60029D978 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = B8C09676B79A2DA78835A69E /* Pods-SwiftQiitaReaderTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -504,6 +654,7 @@
 		};
 		837E50D822E48CE60029D978 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 65176FC44E5CD90F1C44D1EE /* Pods-SwiftQiitaReaderUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -523,6 +674,7 @@
 		};
 		837E50D922E48CE60029D978 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 383B6F2C26A2EA24F6C6A6CA /* Pods-SwiftQiitaReaderUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
